@@ -1,0 +1,55 @@
+.padre{ 
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.imagen{ 
+    display: inline-block;
+    margin-left: 100px;
+    width: 500px;
+    height: auto;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5px;
+    border: solid 1px black;
+}
+
+.imagenNosotros{ 
+    display: inline;
+    width: 400px;
+    height: 400px;
+}
+
+.display{ 
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{ 
+   text-align: center;
+}
+
+h1{ 
+    color: aquamarine;
+    font-size: 40px;
+ }
+
+.end{ 
+    text-align: end;
+ }
+
+ .horizontal{ 
+    width: 100%;
+    height: 500px;
+ }
