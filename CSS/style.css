@@ -21,9 +21,6 @@
     height: 400px;
 }
 
-.display{ 
-    display: inline;
-}
 
 a{
     text-decoration: none;
@@ -42,14 +39,22 @@ header{
 
 h1{ 
     color: aquamarine;
-    font-size: 40px;
+    
  }
 
-.end{ 
-    text-align: end;
- }
 
  .horizontal{ 
     width: 100%;
     height: 500px;
  }
+
+
+ .card-img-top {
+
+    height: 35vh;
+    object-fit: contain;
+
+
+}
+
+

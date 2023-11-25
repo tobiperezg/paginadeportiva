@@ -6,34 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../CSS/style.css">
 
 </head>
 <body>
     <header>
 
-        <nav>
-
-
-            <ul>
-
-                <li class="display" ><a href="../index.html">Home</a></li>
-                <li class="display" ><a href="nosotros.html">Nosotros</a></li>
-                <li class="display" ><a href="tienda.html">Tienda</a></li>
-                <li class="display" ><a href="planes.html">Planes</a></li>
-                <li class="display" ><a href="contacto.html">Contacto</a></li>
-
-            </ul>
-
-
-
+        <nav class="navbar navbar-expand-lg bg-transparent mt-2">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="tienda.html">Tienda</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="planes.html">Planes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
 
     </header>
 
-    <h1 class="titulo">Planes</h1>
+    <main>
 
-    <div class="padre">
+    <h1 class="titulo mt-3 mb-3">Planes</h1>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://institutodyn.com/wp-content/uploads/pexels-photo-416754.jpeg" class="card-img-top mt-3" alt="Plan a distancia, chica entrenando con mancuernas acostada en banco con profesor">
+            <div class="card-body">
+              <h4 class="card-title">PLAN A DISTANCIA</h4>
+              <p class="card-text mb-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, alias! Ab, nesciunt vel? Tempore eos recusandae perspiciatis officiis vitae, impedit dolor consectetur ex quasi tempora quos repudiandae, doloremque blanditiis soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ipsa cupiditate amet reprehenderit ea ducimus magni iste, aperiam quod error accusantium aspernatur, beatae voluptatibus ipsam, iure ad provident voluptatem sint. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quasi doloremque fugiat soluta, eum voluptas. Beatae praesentium incidunt cum! Rerum, sint obcaecati. Excepturi minima enim numquam nostrum provident vero vel!</p>
+              <p class="fw-medium">$ 100.000</p>
+            </div>
+          </div>
+        </div>
+
+            <div class="col">
+              <div class="card">
+                <img src="https://petitfitbycris.com/wp-content/uploads/2020/04/entrenar-con-pesas.jpg" class="card-img-top mt-3" alt="Plan plata, persona agarrando una mancuerna">
+                <div class="card-body">
+                  <h4 class="card-title">PLAN PLATA</h4>
+                  <p class="card-text mb-3"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae enim amet est recusandae, repellat id labore a, dolorem eligendi et voluptates nobis, voluptatem tenetur provident consequatur iure autem delectus earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ipsa cupiditate amet reprehenderit ea ducimus magni iste, aperiam quod error accusantium aspernatur, beatae voluptatibus ipsam, iure ad provident voluptatem sint. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quasi doloremque fugiat soluta, eum voluptas. Beatae praesentium incidunt cum! Rerum, sint obcaecati. Excepturi minima enim numquam nostrum provident vero vel!</p>
+                  <p class="fw-medium">$ 200.000</p>
+                </div>
+              </div>
+            </div>
+    
+              <div class="col">
+                <div class="card">
+                  <img src="https://media.revistagq.com/photos/5d8109d11a3ff40008b26a1a/16:9/w_2560%2Cc_limit/entrneamiento%2520perso.jpg" class="card-img-top mt-3" alt="Plan oro, hombre entrenando con manuerna frente a un espejo">
+                  <div class="card-body">
+                    <h4 class="card-title">PLAN ORO</h4>
+                    <p class="card-text mb-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis molestias in maxime numquam excepturi quisquam ipsam perferendis fuga adipisci. Velit ex cum obcaecati illo! Nobis voluptatum quo commodi quidem ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ipsa cupiditate amet reprehenderit ea ducimus magni iste, aperiam quod error accusantium aspernatur, beatae voluptatibus ipsam, iure ad provident voluptatem sint. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quasi doloremque fugiat soluta, eum voluptas. Beatae praesentium incidunt cum! Rerum, sint obcaecati. Excepturi minima enim numquam nostrum provident vero vel!</p>
+                    <p class="fw-medium">$ 300.000</p>
+                  </div>
+                </div>
+            </div>
+            
+  
+
+
+
+
+<!-- <div class="padre">
 
         <img class="imagen" src="https://institutodyn.com/wp-content/uploads/pexels-photo-416754.jpeg" alt="Plan 1">
 
@@ -60,6 +110,10 @@
         <p class="imagen"> Comprar </p>
 
     </div>
+ -->
+
+    
+    </main>
 
 </body>
 </html>
