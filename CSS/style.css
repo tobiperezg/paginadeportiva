@@ -1,7 +1,7 @@
 .padre{ 
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 50px;
 }
 
 .imagen{ 
@@ -38,7 +38,7 @@ header{
 }
 
 h1{ 
-    color: aquamarine;
+    color: blueviolet;
     
  }
 
@@ -54,7 +54,5 @@ h1{
     height: 35vh;
     object-fit: contain;
 
-
 }
-
 
